@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #30333E;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.space {
+    height: 60px;
+}
+
+/* Navigation */
+
+.navbar {
+    position:fixed;
+    background: #23252c;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    z-index: 1;
+    width: 100%;
+}
+
+
+.logo img {
+    height: 40px;
+}
+
+.nav-link {
+    font-size: 12px;
+}
+
+.navbar-toggler-icon {
+    height: 20px;
+}
+
+.navbar-nav {
+    float: right;
+    padding: 10px;
+    background: #23252c;
+    border-radius: 10px;
+}
+
+.modal {
+    color: #23252c;
+}
+
+/* Header */
+
+.main-container {
+    position: relative;
+    background: url(images/main_bg.png);
+    background-size: 100%;
+    padding: 0 15%;
+}
+
+.contact a {
+    color: #fffffa;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+.contact a:nth-of-type(1){
+    background: #01847f;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.contact a:hover {
+    transform: translateY(-8px);
+}
+
+.contact img {
+    height: 20px;
+}
+
+.main-img img {
+    position: relative;
+    height: 600px;
+    transition: 300ms;
+}
+
+.main-img img:hover {
+    transform: rotate(-6deg);
+}
+
+/* GET TO KNOW ME */
+
+.knowme-container {
+    background: #30333E;
+    display: grid;
+    padding: 20px;
+
+}
+
+.short-profile {
+    padding: 30px 10%;
+}
+
+
+.interest-items {
+    display: flex;
+    justify-content: center;
+}
+
+.interest-items li {
+    background: #525666;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+.interest-items img {
+    height: 30px;
+}
+
+.interest-items p {
+    font-size: 10px;
+}
+
+.language-items li p {
+    padding: 5px;
+    border-radius: 10px;
+    background: #525666;
+}
+
+/* EXPERIENCE */
+.exp-container {
+    justify-content: center;
+    padding: 20px;
+}
+
+.exp-container a {
+    text-decoration: none;
+    color: #fffffa;
+}
+
+.exp-items img {
+    height: 180px;
+}
+
+.exp-items {
+    margin: 20px 0;
+}
+
+.exp-items a:hover {
+    transform: translateY(-8px);
+}
+
+.exp-items-more a{
+    background: #01847f;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+/* WHY HIRE ME */
+.hire-container {
+    padding: 20px;
+}
+
+.hire-items img {
+    width: 180px;
+}
+
+.hire-items img {
+    margin: 30px 0;
+}
+
+/*interested in working*/
+
+.interested-container ul {
+    background: #23252c;
+    height: 120px;
+    padding: 15px;
+}
+
+.interested-container a {
+    background: #01847f;
+    border-radius: 100px;
+    color: white;
+    padding: 10px;
+}
+
+/* PROJECT */
+.project-container {
+    justify-content: center;
+}
+
+/* Photo slide */
+.photoshoot-container {
+    background: #23252c;
+    padding: 10px 10%;
+    margin: 0 0 30px 0;
+}
+
+.photoshoot-container img{
+    width: 100%;
+}
+
+/* Song Video */
+.song-container {
+    margin: 0 0 30px 0;
+    display: flex;
+    height: 300px;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.song-list {
+    background: #f1f1f1;
+}
+  
+.song-list button {
+    display: block;
+    color: #23252c;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+  
+.song-list button.active {
+    background-color: #525666;
+    color: #f1f1f1;
+}
+
+.song-preview {
+    position: relative;
+}
+
+.song-preview img {
+    height: 280px;
+}
+
+.song-preview a {
+    position: absolute;
+    top: 120px;
+    right: 50%;
+    transition: 300ms;
+}
+
+.song-preview a img {
+    height: 56px;
+}
+
+.song-preview a:hover {
+    transform: scale(1.5);
+    transform-origin: center;
+}
+
+/* PHOTOGRAPHY */
+.photography-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 100px;
+    background: #fffffa;
+
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+  
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 700px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+/* TESTIMONI */
+
+.theysay-items li {
+    background: #23252c;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.theysay-items img {
+    height: 100%;
+}
+
+.theysay-items i {
+    font-size: 36px;
+    color: #01847f;
+}
+
+.theysay-items p {
+    font-style: italic;
+}
+
+/* GET IN TOUCH */
+
+.contact-container {
+    background: #23252c;
+    padding: 20px 5%;
+}
+
+.contact-container a{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.contact-container a:hover{
+    color: #525666;
+}
+
+.contact-container img{
+    margin-right: 20px;
+    height: 24px;
+    transition: 300ms;
+}
+
+.contact-container img:hover {
+    transform: translateY(-8px);
+}

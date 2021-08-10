@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borahae</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand logo" href="#MainPage"><img src="images/profile.png" alt="KIM TAE HYUNG"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse float-right" id="collapsibleNavbar">
+            <ul class="navbar-nav text-right ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="#KnowMe">Get To Know Me</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#Exp">Experience</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#Prjct">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" href="#about">ABOUT</a>
+                </li>  
+            </ul>
+        </div>  
+    </nav>
+
+    <div class="modal fade" id="about">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            
+                <div class="modal-header">
+                    <h4 class="modal-title">HAIIII</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <p>This is a simple website portfolio by Putri Nurhaliza in the SPARTA 2020 Challenge.
+                        All information below is from the internet (of course). Tbh, I want to make my own
+                        website portfolio but my experience was not that much so I didn't know what to put there.
+                        <br><br>
+                        Enjoy!
+                    </p>
+                </div>            
+            </div>
+        </div>
+    </div>
+
+    <div id="MainPage" class="main-container">
+        <div class="row">
+            <div class="main-profile col-sm-8 my-auto">
+                <h1>ANNYEONG, I'M V</h1>
+                <p>A South Korean singer, songwriter, and actor</p>
+                <div class="contact">
+                    <a href="mailto:16520063@std.stei.itb.ac.id">Contact Me</a>
+                    <a href="https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ" target="_blank"><img src="images/YT.svg"></a>
+                    <a href="https://www.instagram.com/bts.bighitofficial/" target="_blank"><img src="images/IG.svg"></a>
+                    <a href="https://twitter.com/BTS_twt" target="_blank"><img src="images/TWT.svg"></a>
+                </div>
+            </div>
+            <div class="main-img col-sm-4">
+                <img src="images/v_main.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="KnowMe" class="knowme-container container text-center">
+        <div class="space"></div>
+        <h2>GET TO KNOW ME</h2>
+        <div class="short-profile">
+            <h5>Kim Tae-hyung / 김태형</h5>
+            <p>Was born December 30th, 1995 in Daegu
+                but later moved to Geochang where I spent my life until I moved to Seoul.
+                Now I am a part of BTS, the most popular kpop group in the world.
+            </p>
+        </div>
+        <div class="row">
+            <div class="education col">
+                <h4>Education</h4>
+                <ul>
+                    <li>
+                        <p>Korea Art School</p>
+                    </li>
+                    <li>
+                        <p>Global Cyber University</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="interest col">
+                <h4>My Interest</h4>
+                <ul class="interest-items text-center">
+                    <li>
+                        <img src="images/music.svg" alt="">
+                        <p>Music</p>
+                    </li>
+                    <li>
+                        <img src="images/photos.svg" alt="">
+                        <p>Photos</p>
+                    </li>
+                    <li>
+                        <img src="images/tarveling.svg" alt="">
+                        <p>Traveling</p>
+                    </li>
+                    <li>
+                        <img src="images/games.svg" alt="">
+                        <p>Games</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="Language col">
+                <h4>Language</h4>
+                <ul class="language-items">
+                    <li><p>KOREAN</p></li>
+                    <li><p>JAPAN</p></li>
+                    <li><p>ENGLISH</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="Exp" class="exp-container container text-center">
+        <div class="space"></div>
+        <h2>EXPERIENCE</h2>
+        <ul class="exp-items row">
+            <li class="col">
+                <a href="#">
+                    <img src="images/exp_bts.png" alt="BTS">
+                    <p>Dancer, Singer, Visual of BTS<br>(2013 - Forever)</p>
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="images/exp_hwarang.png" alt="HWARANG">
+                    <p>Acted in Korean Drama “HWARANG”<bras Han-Sung<br>(2016)</p>
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="images/exp_handsome.png" alt="TC CANDLER">
+                    <p>The Most Handsome Faces of 2017<br>by tc candler</p>
+                </a>
+            </li>
+        </ul>
+        <div class="exp-items-more">
+            <a href="https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_BTS" target="_blank">And a lot moreeeeee with BTS</a>
+        </div>
+    </div>
+
+    <div class="hire-container container text-center">
+        <div class="space"></div>
+        <h2>Why Hire Me?</h2>
+        <ul class="hire-items row">
+            <li class="col">
+                <img src="images/hire_1.png" alt="">
+                <h5>COMMUNICATIVE</h5>
+                <p>I can communicate my ideas well and keep a good interaction with people</p>
+            </li>
+            <li class="col">
+                <img src="images/hire_2.png" alt="">
+                <h5>COLLABORATIVE</h5>
+                <p>As people now, I am a part of a group. And I collaborate well with other Artist</p>
+            </li>
+            <li class="col">
+                <img src="images/hire_3.png" alt="">
+                <h5>CREATIVE</h5>
+                <p>Beside singing and dancing, I also love to acting, modelling, and photographing</p>
+            </li>
+            <li class="col">
+                <img src="images/hire_4.png" alt="">
+                <h5>ATTRACTIVE</h5>
+                <p>I have unique personality and charimastic appearance</p>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="interested-container container">
+        <div class="space"></div>
+        <ul class="row">
+            <li class="col-sm-10 my-auto">
+                <h4>Interested in working with me?</h4>
+            </li>
+            <li class="col-sm-2 my-auto">
+                <a href="mailto:16520063@std.stei.itb.ac.id">Contact Me</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="Prjct" class="project-container container text-center">
+        <div class="space"></div>
+        <h2>MY PROJECTS</h2>
+        <ul class="project-items">
+            <li>
+                <h4>PHOTOSHOOT</h4>
+                <div id="photoshoot" class="photoshoot-container carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#photoshoot" data-slide-to="0" class="active"></li>
+                        <li data-target="#photoshoot" data-slide-to="1"></li>
+                        <li data-target="#photoshoot" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/shoot1.png">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/shoot2.png">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/shoot3.png">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#photoshoot" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#photoshoot" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <h4>SONG</h4>
+                <div id="song-video" class="song-container">
+                    <div class="song-list">
+                        <button class="tablinks" onmouseover="openVideo(event, 'Winter-Bear')">Winter Bear</button>
+                        <button class="tablinks" onmouseover="openVideo(event, 'Inner-Child')">Inner Child</button>
+                        <button class="tablinks" onmouseover="openVideo(event, 'Singularity')">Singularity</button>
+                        <button class="tablinks" onmouseover="openVideo(event, 'Sweet-Night')">Sweet Night</button>
+                    </div>
+                        
+                    <div class="song-preview">
+                        <div id="Winter-Bear" class="tabcontent">
+                            <img src="images/song1.png">
+                            <a href="https://www.youtube.com/watch?v=pk7ESz6vtyA&t=60s" target="_blank"><img src="images/play-btn.svg"></a>
+                        </div>
+                        <div id="Inner-Child" class="tabcontent">
+                            <img src="images/song2.png">
+                            <a href="https://www.youtube.com/watch?v=ylRqU3vx7Kw" target="_blank"><img src="images/play-btn.svg"></a>
+                        </div>
+                        <div id="Singularity" class="tabcontent">
+                            <img src="images/song3.png">
+                            <a href="https://www.youtube.com/watch?v=p8npDG2ulKQ" target="_blank"><img src="images/play-btn.svg"></a>
+                        </div>
+                        <div id="Sweet-Night" class="tabcontent">
+                            <img src="images/song4.png">
+                            <a href="https://www.youtube.com/watch?v=N5ShoQimivM" target="_blank"><img src="images/play-btn.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h4>PHOTOGRAPHY</h4>
+                <div class="photography-container">
+                    <div class="column">
+                        <img src="images/pg1.png">
+                        <img src="images/pg2.png">
+                        <img src="images/pg3.png">
+                    </div>
+                    <div class="column">
+                        <img src="images/pg7.png">
+                        <img src="images/pg8.png">
+                        <img src="images/pg9.png">
+                    </div>
+                    <div class="column">
+                        <img src="images/pg10.png">
+                        <img src="images/pg11.png">
+                        <img src="images/pg12.png">
+                    </div>  
+                    <div class="column">
+                        <img src="images/pg4.png">
+                        <img src="images/pg5.png">
+                        <img src="images/pg6.png">
+                    </div>   
+                </div>
+            </li>
+        </ul>
+    </div>
+            
+
+    <div class="theysay-container container">
+        <ul class="theysay-items">
+            <li class="row">
+                <img src="images/testi_halsey.png" alt="" class="col-sm-3">
+                <div class="col-sm-9 my-auto">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I flew to Korea to film the music video for ‘Boy With Luv’
+                        and got to spend some time there, and see how they work,
+                        how they make music video, and how dedicated they are to
+                        dancing and making sure everything is perfect. It definitely
+                        inspired me to maintain that kind of dedication with my art as well</p>
+                    <h5>Halsey</h5>
+                    <h6>American singer-songwriter</h6>
+                </div>
+            </li>
+            <li class="row">
+                <div class="col-sm-9 my-auto">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I’m really close with V, somehow it happened. I don’t think
+                        I take care of them. If the conversation code is correct,
+                        I meet my younger brothers just like he is my friend. We share
+                        our concerns, listen & talk if we can. We’re working in similar
+                        field, we face similar difficulties even though we’re in different positions.<br><br>
+                    </p>
+                    <h5>Park Seo Joon</h5>
+                    <h6>Korean Actor</h6>
+                </div>
+                <img src="images/testi_park.png" class="col-sm-3">
+            </li>
+            <li class="row">
+                <img src="images/testi_lauv.png" class="col-sm-3">
+                <div class="col-sm-9 my-auto">
+                    <i class="fa fa-quote-left"></i>
+                    <p> I was just super honored, especially the fact that they
+                        asked me off the top to be in the very beginning. And
+                        it was a really cool process for me, because they were just very open. </p>
+                    <h5>Lauv</h5>
+                    <h6>American singer-songwriter</h6>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="contact-container">
+        <h3>Get in touch</h3>
+        <p>Email me at <a href="mailto:16520063@std.stei.itb.ac.id">kimtaehyung@std.stei.itb.ac.id</a></p>
+        <a href="https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ" target="_blank"><img src="images/YT.svg"></a>
+        <a href="https://www.instagram.com/bts.bighitofficial/" target="_blank"><img src="images/IG.svg"></a>
+        <a href="https://twitter.com/BTS_twt" target="_blank"><img src="images/TWT.svg"></a>
+    </div>
+</body>
+</html>
